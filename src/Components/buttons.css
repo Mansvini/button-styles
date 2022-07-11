@@ -1,0 +1,44 @@
+.button{
+    padding: 2px 4px 2px 4px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+  }
+
+.buttonContainer{
+    width: 250px;
+}
+
+.isEnabled:active{
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+.isDisabledAndFilled{
+    background-color: #e0e0e0;
+    color: #fff;
+}
+
+.isDisabled{
+    background-color: #fff;
+    color: #e0e0e0;
+    border-style: solid;
+    border-color: #e0e0e0;
+}
+
+.isEnabled{
+    background-color: #fff;
+    color: #ff6f61;
+    border-style: solid;
+    border-color: #ff6f61;
+}
+
+.isEnabledAndFilled{
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+.isDisabled:active{
+    background-color: #e0e0e0;
+    color: #fff;
+}

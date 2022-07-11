@@ -1,0 +1,9 @@
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-color: lightgray;
+  border-radius: 5px;
+  padding: 20px 0px 20px 0px;
+  margin: 10px 10px;
+}
