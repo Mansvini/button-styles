@@ -14,8 +14,10 @@ const Upload = ({label2, iconUrl, buttonStyle, isDisabled}) => {
             <button 
                 className = {`button ${buttonStyle}`}  
                 onClick = {handleUpload}>
-                    <img src={iconUrl} alt = '' width={10} height = {10} />
-                    {label2}
+                    <div>
+                        <img src={iconUrl} alt = '' width={10} height = {10} />
+                        {label2}
+                    </div>
             </button>
         </div>
     );
