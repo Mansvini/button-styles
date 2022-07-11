@@ -1,10 +1,12 @@
 import React from 'react';
 import './buttons.css';
 
-const AddToCart = ({label1, buttonStyle}) => {
+const AddToCart = ({label1, buttonStyle, isDisabled}) => {
 
     const handleAddToCart = () =>{
-        console.log('Added to cart!')
+        if(!isDisabled){
+            console.log('Added to cart!')
+        }    
     }
 
     return (

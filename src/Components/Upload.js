@@ -1,10 +1,12 @@
 import React from 'react';
 import './buttons.css';
 
-const Upload = ({label2, iconUrl, buttonStyle}) => {
+const Upload = ({label2, iconUrl, buttonStyle, isDisabled}) => {
 
     const handleUpload = () =>{
-        console.log('Got it')
+        if(!isDisabled){
+            console.log('Got it')
+        }
     }
 
     return (
@@ -12,7 +14,7 @@ const Upload = ({label2, iconUrl, buttonStyle}) => {
             <button 
                 className = {`button ${buttonStyle}`}  
                 onClick = {handleUpload}>
-                    <img src='./upload.png' alt = '' width={10} height = {10} />
+                    <img src={iconUrl} alt = '' width={10} height = {10} />
                     {label2}
             </button>
         </div>

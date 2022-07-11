@@ -44,12 +44,14 @@ class App extends React.Component {
         <div className= "container">
           <AddToCart 
             label1 = {this.state.label1}
-            buttonStyle = {this.state.buttonStyle}   
+            buttonStyle = {this.state.buttonStyle}
+            isDisabled ={this.state.isDisabled}   
           />
           <Upload 
             label2 = {this.state.label2} 
             iconUrl = {this.state.iconUrl} 
-            buttonStyle = {this.state.buttonStyle}     
+            buttonStyle = {this.state.buttonStyle} 
+            isDisabled ={this.state.isDisabled}    
           />
         </div>
       </div>
